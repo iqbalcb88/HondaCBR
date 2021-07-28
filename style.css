@@ -5,6 +5,17 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --orange-one: #e76f51;
+}
+
+.bg-orange {
+  background-color: var(--orange-one);
+}
+.text-orange {
+  color: var(--orange-one);
+}
+
 .bg-header {
   background-color: #264653;
 }
@@ -15,14 +26,22 @@ body {
 }
 
 .btn-all {
-  background-color: #e76f51;
+  background-color: var(--orange-one);
   padding: 0.5em 1.5em;
   border-radius: 5px;
   color: #fff;
 }
 .btn-hero {
-  background-color: #e76f51;
+  background-color: var(--orange-one);
   padding: 0.25em 1em;
   border-radius: 5px;
   color: #fff;
+}
+
+div div hr {
+  padding-bottom: 0.1em;
+  border: 1px, solid, var(--orange-one);
+}
+.grayscale-img {
+  filter: grayscale(100%);
 }
