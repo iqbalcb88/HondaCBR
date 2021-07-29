@@ -45,3 +45,22 @@ div div hr {
 .grayscale-img {
   filter: grayscale(100%);
 }
+
+.star-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+}
+
+.star-list li {
+  color: var(--orange-one);
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: none;
+}
