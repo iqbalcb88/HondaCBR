@@ -19,6 +19,9 @@ body {
 .bg-header {
   background-color: #264653;
 }
+.bg-nav-bar {
+  background-color: hsla(197, 37%, 24%, 0.384);
+}
 
 .active-honda-nav-item {
   border-bottom: 3px solid rgb(197, 33, 33) !important;
@@ -63,4 +66,25 @@ div div hr {
   border: none;
   text-transform: uppercase;
   box-shadow: none;
+}
+
+.img-product {
+  cursor: zoom-in;
+  transform: scale(0.75);
+}
+
+.img-product:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in;
+}
+
+.accordion-body {
+  background-color: hsla(180, 100%, 50%, 0.24);
+}
+
+footer {
+  padding: 3em 0;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
 }
